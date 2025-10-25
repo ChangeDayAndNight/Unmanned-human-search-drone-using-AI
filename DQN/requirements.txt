@@ -1,0 +1,43 @@
+# DQN AirSim Drone Requirements
+# Python 3.10 환경에서 테스트됨
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0,<2.0.0
+
+# AirSim API
+airsim>=1.8.1
+
+# Computer Vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Data Science & Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Logging & Monitoring - TensorFlow 호환 버전
+tensorboard>=2.15.0,<2.16.0
+tqdm>=4.65.0
+
+# System Monitoring
+psutil>=5.9.0
+
+# Configuration & Utils
+pyyaml>=6.0
+
+# Protocol Buffers - TensorFlow 호환 버전
+protobuf>=3.20.3,<5.0.0
+
+# Optional: Enhanced Performance
+# wandb>=0.15.0  # Weights & Biases for experiment tracking
+# scipy>=1.10.0  # Scientific computing
+# scikit-learn>=1.3.0  # ML utilities
+
+# Development & Testing (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0

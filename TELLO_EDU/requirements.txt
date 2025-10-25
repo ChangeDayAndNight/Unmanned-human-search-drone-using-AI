@@ -1,0 +1,34 @@
+# DJI TELLO EDU 드론 제어 통합 패키지
+# Python 3.10+ 환경에서 테스트됨
+
+# 핵심 드론 제어
+djitellopy>=2.5.0
+
+# 딥러닝 프레임워크
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 컴퓨터 비전 및 이미지 처리
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+pillow>=9.5.0
+
+# 기본 과학 계산
+numpy>=1.21.0
+matplotlib>=3.3.0
+scipy>=1.4.1
+
+# 설정 및 유틸리티
+pyyaml>=5.3.1
+requests>=2.23.0
+psutil>=5.9.0
+
+# 개발 및 디버깅 (선택사항)
+# tqdm>=4.65.0          # 진행률 표시
+# pandas>=2.0.0         # 데이터 분석
+# seaborn>=0.12.0       # 시각화
+
+# 테스트 프레임워크 (개발용)
+# pytest>=7.4.0         # 단위 테스트
+# black>=23.0.0          # 코드 포맷팅
+# flake8>=6.0.0          # 코드 린팅
